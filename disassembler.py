@@ -10,7 +10,7 @@ class DisAssembler:
 	completed = False
 
 	def __init__(self, filename):
-		data = open(filename, 'rb').read() ;  sep = data.find(0xa8)+1
+		data = open(filename, 'rb').read()
 		self.funcs, sep = parse_funcs(data)
 		self.code = data[sep:]
 		self.init_opcodes()
