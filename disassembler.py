@@ -196,12 +196,12 @@ class DisAssembler:
 
 	def incCodeByte(self, int32): # 0x20 (int 32 -> byte off)
 		temp = list(self.code)
-		temp[int32] += 1
+		temp[int32] = (temp[int32] + 1) & 256
 		self.code = bytes(temp)
 
 	def decCodeByte(self, int32): # 0x21 (int 32 -> byte off)
 		temp = list(self.code)
-		temp[int32] -= 1
+		temp[int32] = (temp[int32] - 1) % 256
 		self.code = bytes(temp)
 
 	def movCodeByte(self): # 0x22
