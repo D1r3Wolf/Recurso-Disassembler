@@ -38,5 +38,5 @@ By getting functionality of them , Reversing the logic -> getting flag.
 
 - Write-ups are there in my blog : https://d1r3wolf.blogspot.com/
 
-1. [Recurso]()
-2. [Rasm]()
+1. [Recurso](https://d1r3wolf.blogspot.com/2021/11/k3rn3l-ctf-2021-rev-recurso-rasm.html#recurso)
+2. [Rasm](https://d1r3wolf.blogspot.com/2021/11/k3rn3l-ctf-2021-rev-recurso-rasm.html#rasm)
